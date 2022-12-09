@@ -5,7 +5,7 @@ CREATE TABLE orders (
     product_name VARCHAR(50) NOT NULL,
     product_price DECIMAL NOT NULL,
     quantity DECIMAL
-)
+);
 
 -- Add 5 orders to the orders table.
 -- Make orders for at least two different people.

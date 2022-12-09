@@ -6,14 +6,14 @@ CREATE TABLE person (
     age INT NOT NULL,
     height DECIMAL,
     city VARCHAR(40),
-    favorite_color VARCHAR(25);    
- )
+    favorite_color VARCHAR(25)   
+ );
 
 -- Add 5 different people into the person database. Remember to not include the person_id because it should auto-increment.
 INSERT INTO person (full_name, age, height, city, favorite_color) VALUES 
 ('Max', 27, 180, 'Houston', 'Red'),
 ('Sara', 40, 150, 'Boise', 'Pink'),
-('Bob' 19, 165, 'Los Angeles', 'Blue').
+('Bob', 19, 165, 'Los Angeles', 'Blue'),
 ('Maria', 64, 145, 'Kansas City', 'Red'),
 ('Stella', 14, 135, 'New York City', 'White');
 
